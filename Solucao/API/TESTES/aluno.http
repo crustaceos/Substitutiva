@@ -1,0 +1,13 @@
+###Cadastrar Aluno
+POST http://localhost:5142/api/cadastrar/aluno
+Content-Type: application/json
+
+{
+    "nome":"Joao",
+    "sobrenome":"Mole"
+}
+
+
+###Listar IMC por Aluno
+GET http://localhost:5142/api/listar/imcPorAluno/id:7
+

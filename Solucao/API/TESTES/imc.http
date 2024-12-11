@@ -1,0 +1,23 @@
+###Cadastrar IMC
+POST http://localhost:5142/api/cadastrar/imc
+Content-Type: application/json
+
+{
+    "alunoId":"7",
+    "peso":"110",
+    "altura": "1.74"
+}
+
+###Listar todos os IMCS
+GET http://localhost:5142/api/listar/imcs
+
+###Alterar IMC
+PUT http://localhost:5142/api/alterar/imc/id:6
+Content-Type: application/json
+
+{
+    "nome":"Joao",
+    "sobrenome":"Vinicius",
+    "peso":"98",
+    "altura":"1.56"
+}
